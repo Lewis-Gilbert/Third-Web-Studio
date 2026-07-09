@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 52px;
+  width: 50px;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* .Hero {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+} */
+
+.Hero {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.hero-txt {
+  margin-top: -100px;
+  left: 200px;
+  position: relative;
+}
+
+h1 {
+  width: 350px;
+  /* font-family: inter; */
+  font-size: 60px;
+  font-style: medium;
+  font-weight: 500;
+  line-height: 103.7px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+.hero-small-write-up {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  top: -200px;
+}
+
+.hero-small-write-up-txt {
+  width: 342.67px;
+  height: 50px;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: FFFFFF;
+}
+
+.clients {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.clients p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.clients img {
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 200px;
+}
+
+.intro-write-up {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 540px;
+}
+
+.intro-write-up h2 {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0%;
+}
+
+.intro-write-up p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
