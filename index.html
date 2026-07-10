@@ -12,7 +12,7 @@
         <img src="./images/logo.png" alt="Logo" />
       </div>
 
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -22,8 +22,8 @@
         </ul>
       </div>
 
-      <div class="menu-btn">
-        <li><a href="">Menu</a></li>
+      <div class="menu-btn" id="menuBtn">
+        <li><a href="#">Menu</a></li>
         <span><img src="./images/menu-img.png" alt="" /></span>
       </div>
     </nav>
@@ -52,13 +52,13 @@
       </div>
     </div>
 
-    <div class="clients">
+    <div class="clients reveal">
       <p>Our clients are backed by:</p>
 
       <img src="./images/clients-img.png" alt="Clients Image" />
     </div>
 
-    <section class="intro">
+    <section class="intro reveal">
       <div class="intro-write-up">
         <h2>What is Web3 studio?</h2>
 
@@ -76,7 +76,7 @@
       </div>
     </section>
 
-    <section class="Projects">
+    <section class="Projects reveal">
       <h2>Projects</h2>
       <div class="flex">
         <div class="flex-1">
@@ -92,9 +92,9 @@
       </div>
     </section>
 
-    <section class="other-projects">
+    <section class="other-projects reveal">
       <h2>Other Projects</h2>
-      <div class="other-projects-flex">
+      <div class="other-projects-flex" id="otherProjectsFlex">
         <img src="./images/other-projects-img-1.png" alt="" />
         <img src="./images/other-projects-img-2.png" alt="" />
         <img src="./images/other-projects-img-3.png" alt="" />
@@ -105,8 +105,8 @@
         </div>
 
         <div class="icon-2">
-          <img src="./images/scroll-left.png" alt="" />
-          <img src="./images/scroll-right.png" alt="" />
+          <img src="./images/scroll-left.png" alt="" id="scrollLeft" />
+          <img src="./images/scroll-right.png" alt="" id="scrollRight" />
         </div>
       </div>
     </section>
@@ -115,11 +115,98 @@
       <img src="./images/div-img.png" alt="" />
     </div>
 
-    <section class="Growth">
+    <section class="Growth reveal">
       <h2>How we can</h2>
       <h2>help grow</h2>
+
+      <div class="Growth-flex">
+        <div class="Growth-flex-1">
+          <p>Product clarity</p>
+          <p>UX/UI design</p>
+          <p>Maintain process</p>
+        </div>
+
+        <div class="Growth-flex-2">
+          <img src="./images/Growth-img.png" alt="" />
+        </div>
+
+        <div class="Growth-flex-3">
+          <p class="Growth-flex-3-txt">
+            Are you at the idea stage? We will help you identify the critical
+            MVP product scope.
+          </p>
+
+          <div class="Growth-flex-3-txt-2">
+            <p>product goal & vision</p>
+            <p>brand voice</p>
+            <p>product positioning</p>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <section class="About reveal">
+      <div class="holding-con">
+        <img src="./images/About-img.png" alt="" />
+
+        <div class="About-txt">
+          <h2>About</h2>
+          <p class="About-intro">
+            Team of product and brand designers that are really passionate about
+            blockchain technology and good design. We are not just UI freaks! We
+            advocate users for better product experience and common sense.
+          </p>
+
+          <div class="more">
+            <p>More about us</p>
+            <span><img src="./images/Learn-more-arrow.png" alt="" /></span>
+          </div>
+        </div>
+      </div>
+      <img src="./images/About-img-2.png" alt="" class="About-img-2" />
+      <img src="./images/About-img-3.png" alt="" class="About-img-3" />
+    </section>
+
+    <footer>
+      <div class="ft-div-1">
+        <h2>Web3 product studio</h2>
+        <p class="p1">
+          Feel free to reach out if you want to collaborate with us, or simply
+          have a chat.
+        </p>
+
+        <div class="flex-">
+          <p>hello@thirdweb.studio</p>
+          <span><img src="./images/Learn-more-arrow.png" alt="" /></span>
+        </div>
+      </div>
+
+      <div class="ft-div-2">
+        <h4>Our projects</h4>
+        <ul>
+          <li>WingRiders</li>
+          <li>Trackee</li>
+          <li>Worldcoin</li>
+          <li>Audience+</li>
+        </ul>
+      </div>
+
+      <div class="ft-div-3">
+        <h4>Follow us</h4>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Dribbble</li>
+          <li>Linkedin</li>
+        </ul>
+      </div>
+
+      <div class="ft-div-4">
+        <button id="backToTop">
+          <img src="./images/back-to-top-btn.png" alt="" />
+        </button>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
